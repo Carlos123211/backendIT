@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon public/index.js",
-    "devbabel": "nodemon public/index.js --exec babel-node"
+    "dev": "nodemon ./public/index.js",
+    "devbabel": "nodemon ./public/index.js --exec babel-node",
+    "server": "babel-node ./public/index.js"
   },
   "author": "Carlos1232",
   "license": "MIT",
